@@ -3,7 +3,7 @@ function capitalize_first_letter(string) {
 	console.log(string.charAt(0).toUpperCase()+string.substring(1,string.length)); 
 }
 
-capitalize_first_letter('i am a web developer')
+capitalize_first_letter('i am a web developer');
 
 function average_grade(math, physics, english) {
 	if (typeof math != "number" || typeof physics != "number" || typeof english != "number") {
