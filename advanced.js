@@ -19,3 +19,16 @@ function yesterdays_date(date) {
 }
 
 yesterdays_date("Feb 23, 2017");
+
+function random_255() {
+	return Math.round(Math.random()*255);
+}
+
+function random_rbg() {
+	var red = random_255();
+	var green = random_255();
+	var blue = random_255();
+	return "rgb("+red+","+green+","+blue+")";
+}
+
+document.body.style.background = random_rbg();
