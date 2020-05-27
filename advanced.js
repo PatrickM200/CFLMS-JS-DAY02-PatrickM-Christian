@@ -11,6 +11,8 @@ time_convert(200);
 function yesterdays_date(date) {
 	var input_date = new Date(date);
 	input_date.setDate(input_date.getDate()-1);
+
+	console.log(input_date.toLocaleString('de-DE'));
 	console.log(input_date);
 	
 }
